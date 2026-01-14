@@ -1,0 +1,7 @@
+gateway_port: 3000
+
+mcp_servers:
+  time_service:
+    type: stdio
+    command: "uvx"
+    args: ["mcp-server-time"]
