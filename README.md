@@ -1,8 +1,8 @@
-# 🦀 Apparatus MCP Gateway
+# Apparatus MCP Gateway
 
 A high-performance **Model Context Protocol (MCP) Gateway** built in Rust. This gateway acts as a multiplexer, allowing LLM clients to communicate with multiple upstream MCP servers (both local Stdio processes and remote HTTP/SSE services) through a single unified endpoint.
 
-## 🚀 Features
+## Features
 
 * **Multiplexing:** Combine multiple MCP servers into one tool list.
 * **Namespacing:** Automatically prefixes tools (e.g., `time_service::get_time`) to prevent conflicts between servers.
@@ -10,7 +10,7 @@ A high-performance **Model Context Protocol (MCP) Gateway** built in Rust. This 
 * **Declarative Config:** Manage your tools via a simple `config.yaml` file.
 * **Built with Axum & Tokio:** Fully asynchronous, safe, and lightning-fast.
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ cargo build --release
 
 
 
-## ⚙️ Configuration
+## Configuration
 
 Create a `config.yaml` in the project root:
 
@@ -93,7 +93,7 @@ curl -X POST http://localhost:3000/message \
 
 
 
-## 🧪 Development
+## Development
 **Format code:**
 ```bash
 cargo fmt
